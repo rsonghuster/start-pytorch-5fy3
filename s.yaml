@@ -22,7 +22,7 @@ name: start-pytorch-5fy3
 access: "default"
 
 vars: # 全局变量
-  region: "cn-hangzhou"
+  region: "ap-southeast-1"
   service:
     name: "start-ai-5fy3"
 
@@ -53,7 +53,7 @@ services:
         memorySize: 1536
         runtime: custom-container
         customContainerConfig:
-          image: "registry.cn-hangzhou.aliyuncs.com/rsong/pytorch-demo:v0.1"
+          image: "registry.ap-southeast-1.aliyuncs.com/rsong/pytorch-demo:v1"
         codeUri: ./code
 
 #  next-function: # 第二个函数的案例，仅供参考
